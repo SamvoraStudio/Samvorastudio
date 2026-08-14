@@ -1,0 +1,32 @@
+# Standard search engines
+User-agent: *
+Allow: /
+
+# AI / answer-engine crawlers — explicitly allowed so Samvora Studio
+# can be cited in AI-generated answers (ChatGPT, Perplexity, Google AI
+# Overviews, etc.). Remove any of these blocks if you'd rather opt out.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://www.samvorastudio.com/sitemap.xml
